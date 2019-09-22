@@ -39,7 +39,13 @@ $db_name = 'user_app';
 
 In order to test the API included in this exercise, you will need an API client such as the one provided by [Postman](https://www.getpostman.com/).
 
-Each operation is included in an individual file in the *api* directory. Below you will find instructions for these operations.
+Each operation is included in an individual file in the *api* directory. Below you will find instructions for these operations. Whenever a request results in failure, you will receive the appropriate HTTP response code and an error message in JSON format, as shown in the example below:
+
+```
+{
+    "error": "This is an error message."
+}
+```
 
 ### Create
 
