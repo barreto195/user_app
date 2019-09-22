@@ -15,7 +15,7 @@ Step 2: Create an empty MySQL database.
 
 Step 3: Associate a MySQL user to the newly-created database with *CREATE*, *SELECT*, *INSERT*, *UPDATE*, and *DELETE* privileges.
 
-Step 4: After selected the newly-created database, run the MySQL queries in the included **install.sql** script. You should end up with a table named *user* containing the following columns:
+Step 4: After selecting the newly-created database, run the MySQL queries in the included **install.sql** script. You should end up with a table named *user* containing the following columns:
 
 ```
 `id` INT NOT NULL AUTO_INCREMENT,
